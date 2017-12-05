@@ -83,7 +83,7 @@ public class MainActivity extends AppCompatActivity {
                             //String sensor2 = recDataString.substring(11, 15);
                             //String sensor3 = recDataString.substring(16, 20);
 
-                           values.set(5,new MainModel("Heart Rate",sensor0+" BPM","heart"));
+                           values.set(2,new MainModel("Heart Rate",sensor0+" BPM","heart"));
                            mainAdapter.notifyDataSetChanged();
                            //update the textviews with sensor values
                         }
